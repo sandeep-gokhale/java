@@ -1,12 +1,12 @@
-name: Push to dev
+name: Push to Staging
 
 on:
   push:
-    branches: ["develop"]
+    branches: ["staging"]
 
 jobs:
   build:
-    runs-on: [self-hosted, dev]
+    runs-on: [self-hosted, staging]
 
     steps:
       - uses: actions/checkout@v3
