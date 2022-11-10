@@ -8,6 +8,7 @@ public class UserController {
  
     @GetMapping
     public String hello(){
+        System.out.println("Inside..");
         return "Hello World.... New Changes from develop";
     }
     

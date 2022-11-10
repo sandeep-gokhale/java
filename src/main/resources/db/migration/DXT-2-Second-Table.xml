@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
-    <changeSet author="sandeepgokhle" id="1">
+    <changeSet author="sandeepgokhle" id="2">
         <comment>Create Users table</comment>
-        <createTable tableName="users1">
+        <createTable tableName="users2">
             <column name="id" type="int">
                 <constraints primaryKey="true" />
             </column>
