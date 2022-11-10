@@ -8,7 +8,7 @@ public class UserController {
  
     @GetMapping
     public String hello(){
-        return "Hello World.... Hot Fix With New Updates";
+        return "Hello World.... New Changes from develop";
     }
     
 }
