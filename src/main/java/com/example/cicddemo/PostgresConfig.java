@@ -38,6 +38,7 @@ public class PostgresConfig extends DataSourceConfig {
         String dbUserName = env.getProperty("UUNAME");
         String dbPassword = env.getProperty("paassword");
 
+        System.out.println(env.getProperty("PATH"));
         System.out.println(dbUserName);
 
         return getDataSource(dataSourceURL, dbUserName, dbPassword, driver, "POSTGRES_POOL");
